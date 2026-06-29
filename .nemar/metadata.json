@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Resting-state EEG before and after different study methods",
+  "description": "The RECAP-EEG dataset comprises resting-state electroencephalography recordings from 21 neurotypical undergraduate students collected before and after three different study conditions: active learning with retrieval practice and feedback, passive learning from personal notes, and a control condition. The study investigates neural correlates of learning processes in educational contexts using 32-channel EEG recordings sampled at 500 Hz with standardized electrode placement according to the 10–20 system.",
+  "methods_description": "EEG signals were recorded using a 32-channel ActiChamp system (Brain Products GmbH, Germany) with active Ag/AgCl electrodes positioned according to the international 10–20 system. Electrode impedance was maintained below 15 kΩ. Signals were sampled at 500 Hz and filtered between 0.5 and 50 Hz. Each recording session lasted approximately nine minutes, comprising four blocks: two eyes-open blocks (2 minutes 15 seconds each) and two eyes-closed blocks (2 minutes 15 seconds each). Recordings were performed at two time points: before and immediately after the study intervention.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,12 +11,45 @@
     "Antonio Simeão Sobrinho Neto": {},
     "Carla Alexandra da Silva Moita Minervino": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds006801.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "learning"
+    },
+    {
+      "term": "retrieval practice"
+    },
+    {
+      "term": "cognitive neuroscience"
+    },
+    {
+      "term": "educational neuroscience"
+    },
+    {
+      "term": "active learning"
+    },
+    {
+      "term": "feedback"
+    },
+    {
+      "term": "pre-post design"
+    },
+    {
+      "term": "undergraduate"
+    },
+    {
+      "term": "memory"
+    },
+    {
+      "term": "attentional modulation"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on006801",
       "identifier_type": "URL",
@@ -29,6 +64,11 @@
       "identifier": "10.18112/openneuro.ds006801",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds006801.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -37,15 +77,19 @@
     },
     {
       "funder_name": "Federal University of Paraíba (UFPB)"
+    },
+    {
+      "funder_name": "CAPES",
+      "award_title": "Coordination for the Improvement of Higher Education Personnel"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "1.4 GB (127 files)"
   ],
   "formats": [
     ".eeg",
@@ -53,41 +97,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "The RECAP-EEG dataset comprises resting-state electroencephalography recordings from 21 neurotypical undergraduate students collected before and after three different study conditions: active learning with retrieval practice and feedback, passive learning from personal notes, and a control condition. Recorded using a 32-channel ActiChamp system at 500 Hz with electrodes positioned according to the 10–20 system, the dataset aims to investigate neural correlates of learning processes and cognitive adaptation in educational contexts. This open-access resource supports research in cognitive neuroscience, educational neuroscience, and neural mechanisms of learning and memory.",
-  "methods_description": "EEG signals were recorded using a 32-channel ActiChamp system (Brain Products GmbH, Germany) with active Ag/AgCl electrodes positioned according to the international 10–20 system. Electrode impedance was maintained below 15 kΩ with ground at Fpz. Signals were sampled at 500 Hz and filtered between 0.5 and 50 Hz. Two recording sessions (pre- and post-intervention) were conducted, each lasting approximately nine minutes and comprising four blocks: two eyes-open blocks (2 minutes 15 seconds each) and two eyes-closed blocks (2 minutes 15 seconds each). Participants were randomly assigned to three experimental groups: active learning (retrieval practice with immediate feedback via NeuroShow platform), passive learning (review from personal notes), or control (lecture viewing without review).",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "resting-state"
-    },
-    {
-      "term": "Learning",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D007858"
-    },
-    {
-      "term": "retrieval practice"
-    },
-    {
-      "term": "cognitive adaptation"
-    },
-    {
-      "term": "educational neuroscience"
-    },
-    {
-      "term": "Feedback",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005246"
-    },
-    {
-      "term": "Memory",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008571"
-    }
-  ],
-  "source_hash": "631b0e0fdb6759b693fad8a849ffbe0a6fc6d98732a2ac6150973c8f766be3b9"
+  "source_hash": "61f818aed6edaed4416695cb0fd8b3098f36e5272000233895a36e7f992564b5"
 }
