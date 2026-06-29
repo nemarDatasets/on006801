@@ -31,22 +31,34 @@
       "term": "educational neuroscience"
     },
     {
-      "term": "active learning"
-    },
-    {
       "term": "feedback"
-    },
-    {
-      "term": "pre-post design"
-    },
-    {
-      "term": "undergraduate"
     },
     {
       "term": "memory"
     },
     {
-      "term": "attentional modulation"
+      "term": "attention"
+    },
+    {
+      "term": "active learning"
+    },
+    {
+      "term": "passive learning"
+    },
+    {
+      "term": "eyes-open"
+    },
+    {
+      "term": "eyes-closed"
+    },
+    {
+      "term": "neurotypical"
+    },
+    {
+      "term": "undergraduate"
+    },
+    {
+      "term": "BIDS"
     }
   ],
   "related_identifiers": [
