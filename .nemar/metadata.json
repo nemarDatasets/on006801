@@ -1,0 +1,38 @@
+{
+  "version": "2.0",
+  "dataset_id": "on006801",
+  "source": "openneuro",
+  "source_id": "ds006801",
+  "title": "Resting-state EEG before and after different study methods",
+  "authors": {
+    "Paloma Victoria de Sales Alves": {},
+    "Antonio Simeão Sobrinho Neto": {},
+    "Carla Alexandra da Silva Moita Minervino": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds006801.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.9.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Coordination for the Improvement of Higher Education Personnel (CAPES)"
+    },
+    {
+      "funder_name": "Federal University of Paraíba (UFPB)"
+    }
+  ],
+  "acknowledgements": "Federal University of Paraíba (UFPB), Cognitive Neuroscience and Behavior Graduate Program (PPGNeC), João Pessoa, Brazil."
+}
