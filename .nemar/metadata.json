@@ -1,30 +1,35 @@
 {
   "version": "2.0",
-  "dataset_id": "on006801",
-  "source": "openneuro",
-  "source_id": "ds006801",
+  "pipeline_stage": "enriched",
   "title": "Resting-state EEG before and after different study methods",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Paloma Victoria de Sales Alves": {},
     "Antonio Simeão Sobrinho Neto": {},
     "Carla Alexandra da Silva Moita Minervino": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006801.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006801",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006801",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds006801",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
@@ -34,5 +39,55 @@
       "funder_name": "Federal University of Paraíba (UFPB)"
     }
   ],
-  "acknowledgements": "Federal University of Paraíba (UFPB), Cognitive Neuroscience and Behavior Graduate Program (PPGNeC), João Pessoa, Brazil."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "The RECAP-EEG dataset comprises resting-state electroencephalography recordings from 21 neurotypical undergraduate students collected before and after three different study conditions: active learning with retrieval practice and feedback, passive learning from personal notes, and a control condition. Recorded using a 32-channel ActiChamp system at 500 Hz with electrodes positioned according to the 10–20 system, the dataset aims to investigate neural correlates of learning processes and cognitive adaptation in educational contexts. This open-access resource supports research in cognitive neuroscience, educational neuroscience, and neural mechanisms of learning and memory.",
+  "methods_description": "EEG signals were recorded using a 32-channel ActiChamp system (Brain Products GmbH, Germany) with active Ag/AgCl electrodes positioned according to the international 10–20 system. Electrode impedance was maintained below 15 kΩ with ground at Fpz. Signals were sampled at 500 Hz and filtered between 0.5 and 50 Hz. Two recording sessions (pre- and post-intervention) were conducted, each lasting approximately nine minutes and comprising four blocks: two eyes-open blocks (2 minutes 15 seconds each) and two eyes-closed blocks (2 minutes 15 seconds each). Participants were randomly assigned to three experimental groups: active learning (retrieval practice with immediate feedback via NeuroShow platform), passive learning (review from personal notes), or control (lecture viewing without review).",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "Learning",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007858"
+    },
+    {
+      "term": "retrieval practice"
+    },
+    {
+      "term": "cognitive adaptation"
+    },
+    {
+      "term": "educational neuroscience"
+    },
+    {
+      "term": "Feedback",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005246"
+    },
+    {
+      "term": "Memory",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008571"
+    }
+  ],
+  "source_hash": "631b0e0fdb6759b693fad8a849ffbe0a6fc6d98732a2ac6150973c8f766be3b9"
 }
