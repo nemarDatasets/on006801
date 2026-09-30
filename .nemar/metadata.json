@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Resting-state EEG before and after different study methods",
-  "description": "The RECAP-EEG dataset provides resting-state electroencephalography recordings from 21 neurotypical undergraduate students collected before and after different study interventions (active retrieval practice, passive review, and control conditions) at the Federal University of Paraíba, Brazil. The dataset aims to support research into the neural correlates of learning, retrieval practice, and educational neuroscience. Recordings include pre- and post-intervention resting-state EEG with eyes-open and eyes-closed blocks.",
-  "methods_description": "EEG signals were recorded using a 32-channel ActiChamp system (Brain Products GmbH, Germany) with active Ag/AgCl electrodes placed according to the international 10-20 system, impedance kept below 15 kΩ, ground at Fpz. Signals were sampled at 500 Hz and filtered between 0.5 and 50 Hz. Each session lasted about nine minutes, comprising two eyes-open and two eyes-closed blocks of 2 minutes 15 seconds each, recorded before and after a study intervention (active learning with feedback, passive review, or control). Data are organized in BIDS format with .vhdr, .eeg, and .vmrk files.",
+  "description": "Open-access resting-state EEG recordings from 21 neurotypical undergraduate students at the Federal University of Paraíba, Brazil, collected before and after different study methods. Participants were randomly assigned to an active learning group (retrieval practice with feedback), a passive learning group (review of lecture notes), or a control group with no review. The dataset supports research in cognitive neuroscience, educational neuroscience, and the neural correlates of learning and memory.",
+  "methods_description": "EEG was recorded with a 32-channel ActiChamp system (Brain Products) using active Ag/AgCl electrodes placed according to the 10-20 system. Impedance was kept below 15 kΩ, the ground was at Fpz, and the sampling rate was 500 Hz with 0.5-50 Hz filtering. Each of two sessions (pre- and post-intervention) lasted about nine minutes and comprised two eyes-open and two eyes-closed blocks of 2 min 15 s each. Data are organized in BIDS format as BrainVision files.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,7 +16,16 @@
       "term": "EEG"
     },
     {
-      "term": "resting state"
+      "term": "resting-state"
+    },
+    {
+      "term": "retrieval practice"
+    },
+    {
+      "term": "active learning"
+    },
+    {
+      "term": "educational neuroscience"
     },
     {
       "term": "Learning",
@@ -24,19 +33,9 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D007858"
     },
     {
-      "term": "retrieval practice"
-    },
-    {
-      "term": "educational neuroscience"
-    },
-    {
-      "term": "cognitive neuroscience"
-    },
-    {
-      "term": "memory"
-    },
-    {
-      "term": "attention"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
@@ -75,7 +74,7 @@
     "eeg"
   ],
   "sizes": [
-    "1.4 GB (127 files)"
+    "1.32 GB (127 files)"
   ],
   "formats": [
     ".eeg",
